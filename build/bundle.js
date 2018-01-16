@@ -18354,6 +18354,12 @@ var Images = function (_Component) {
 			var paramsStr = 'timestamp=' + timestamp + '&upload_preset=' + uploadPreset + 'u_eoEfpwlsvCZvzJZZniyAuaxQY';
 
 			var signature = (0, _sha2.default)(paramsStr);
+			var params = {
+				'api_key': '634143159227421',
+				'timestamp': timestamp,
+				'upload_preset': uploadPreset,
+				'signature': signature
+			};
 		}
 	}, {
 		key: 'render',

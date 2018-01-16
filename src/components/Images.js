@@ -18,8 +18,12 @@ class Images extends Component {
 		const paramsStr = 'timestamp='+timestamp+'&upload_preset='+uploadPreset+'u_eoEfpwlsvCZvzJZZniyAuaxQY'
 
 		const signature = sha1(paramsStr)
-
-		
+		const params = {
+			'api_key': '634143159227421',
+			'timestamp': timestamp,
+			'upload_preset': uploadPreset,
+			'signature': signature
+					}
 
 	}
 
