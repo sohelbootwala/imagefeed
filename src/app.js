@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
+import Images from './components/Images'
 
 class App extends Component {
 
 		render(){
 			return (
 				<div>
-						this is the react app!
+						This is my React application!!!
+						<Images />
 				</div>
 			)
 		}

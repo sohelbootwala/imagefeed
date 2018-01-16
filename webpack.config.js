@@ -7,13 +7,13 @@ module.exports = {
 	},
 	output: {
 		filename: 'build/bundle.js',
-		sourceNapFilename: 'build/bundle.map'
+		sourceMapFilename: 'build/bundle.map'
 	},
 	devtool: '#source-map',
 	module: {
 		loaders: [
 				{
-					loaders: 'babel',
+					loaders: 'babel-loader',
 					exclude: /(node_modules)/,
 					query: {
 						presets: ['react', 'es2015']
